@@ -1,3 +1,3 @@
-Non-finished project
+Status: Finished project
 
 Project language: Spanish

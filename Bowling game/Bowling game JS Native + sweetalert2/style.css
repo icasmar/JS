@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-image: url("./imgs/bowling.png") ;
+}
+
+#divTabla {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#divBolos {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-image: url("./imgs/suelo.png") ;
+    padding: 10px 2px;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: azure;
+}
+
+th {
+    padding: 4px 20px;
+}
+
+td {
+    background-color: rgb(185, 184, 184);
+    padding: 5px 10px;
+    height: 50px;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#bola {
+    width: 50px;
+    height: 50px;
+    
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.activo td {
+    background-color: aquamarine;
+}
